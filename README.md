@@ -9,6 +9,24 @@ Setup Guide: https://www.youtube.com/watch?v=pdlhk4vVHQk
 
 WebUI is under constant development and testing, but you can try it out right now on both local and colab!
 
+## Table of Contents
+
+- [Changelog](#changelog)
+- [Setup](#setup)
+    - [Install Git and Python](#install-git-and-python)
+    - [Install ffmpeg and sox](#install-ffmpeg)
+    - [Clone AICoverGen repository](#clone-aicovergen-repository)
+    - [Download required models](#download-required-models)
+- [Usage with WebUI](#usage-with-webui)
+    - [Download RVC models via WebUI](#download-rvc-models-via-webui)
+    - [Upload RVC models via WebUI](#upload-rvc-models-via-webui)
+    - [Running the pipeline via WebUI](#running-the-pipeline-via-webui)
+- [Usage with CLI](#usage-with-cli)
+    - [Manual Download of RVC models](#manual-download-of-rvc-models)
+    - [Running the pipeline via CLI](#running-the-pipeline-via-cli)
+- [Terms of Use](#terms-of-use)
+
+
 ## Changelog
 
 - WebUI for easier conversions and downloading of voice models
@@ -155,7 +173,7 @@ The directory structure should look something like this:
 └── src
  ```
 
-### Running the pipeline
+### Running the pipeline via CLI
 
 To run the AI cover generation pipeline using the command line, run the following command.
 
